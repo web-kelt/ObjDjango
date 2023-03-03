@@ -6,12 +6,6 @@
 pip3 install -r requirements.txt
 ```
 
-**p.s.** указанное действие возможно потребуется выполнить дважды, поскольку при первом запуске может возникнуть проблема с рассинхронизацией версий библиотек:
-
-```bash
-ERROR: djoser 2.1.0 has requirement djangorestframework-simplejwt<5.0.0,>=4.3.0, but you'll have djangorestframework-simplejwt 5.1.0 which is incompatible.
-ERROR: djoser 2.1.0 has requirement social-auth-app-django<5.0.0,>=4.0.0, but you'll have social-auth-app-django 5.0.0 which is incompatible.
-```
 
 2. установить Postgres с использованием имеющегося менеджера пакетов и запустить консоль Postgres под созданным при установке пользователем *postgres*
 
@@ -50,9 +44,6 @@ python3 manage.py runserver
 
 7. подключиться к запущенному серверу в браузере по ссылке http://localhost:8000/
 
-```bash
-python3 manage.py runserver
-```
 
 8. для создания суперпользователя введите в Pycharm
 ```bash

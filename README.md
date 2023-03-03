@@ -1,32 +1,4 @@
-# Инструкция по запуску разработанного ПС c помощью докера
-
-##### 1) Создать образ
-
-    docker-compose build
-
-##### 2) Запустить контейнер
-
-    docker-compose up
-    
-##### 3) Создать и загрузить миграции
-```
-sudo docker exec -it web_web_back_1 python3 manage.py makemigrations main && sudo docker exec -it web_web_back_1 python3 manage.py makemigrations jobs && sudo docker exec -it web_web_back_1 python3 manage.py makemigrations prepods && sudo docker exec -it web_web_back_1 python3 manage.py migrate
-```
-##### 4) Перейти по адресу
-
-    http://0.0.0.0:8000/
-    
-##### 5) При желании возможно создать суперюзера следующей командой
-
-    docker exec -it web_web_back_1 python3 docker_manage.py createsuperuser
-                                                        
-##### 6) Если нужно очистить БД
-
-    docker-compose down -v
-***
-
-
-# Инструкция по запуску разработанного ПС без докера
+# Инструкция по запуску
 
 1. установить нужные python-библиотеки from `requirements.txt` with **pip3**
 

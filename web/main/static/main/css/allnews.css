@@ -1,0 +1,19 @@
+.allnews {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.allnews a {
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 28px;
+	border-top: 1px solid #000; 
+	border-bottom: 1px solid #000; 
+	padding: 5px;
+}
+
+.allnews a:hover {
+	color: #6752F4;
+	transition: 0.25s;
+}

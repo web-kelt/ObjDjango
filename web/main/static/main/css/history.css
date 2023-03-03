@@ -1,0 +1,72 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: 000;
+	font-size: 16px;
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+}
+
+.container {
+	padding: 0;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+	background:	linear-gradient(158.51deg, #00C2FF 2.61%, #CE1BA7 70.35%);
+}
+
+header a {
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.menu li a:hover {
+	color: black;
+}
+
+.menu li {
+	margin-right: 28px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	letter-spacing: 0.1em;
+}
+
+.logo {
+	margin-right: 96px;
+}
+
+.git {
+	margin-left: 110px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}

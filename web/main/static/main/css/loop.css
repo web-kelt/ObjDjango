@@ -1,0 +1,47 @@
+.loop {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 32px;
+}
+
+.loop img {
+	margin-right: 10px;
+}
+
+.nac {
+	text-align: center;
+}
+
+.container p {
+	font-size: 20px;
+}
+
+.footer {
+	height: 102px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #230BB3 80.73%);
+	text-align: center;
+}
+
+.git {
+	margin-left: 110px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+
+.account {
+	margin-left: auto;
+	align-items: center;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.logout {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.logout:hover {
+	color:black;
+}

@@ -1,0 +1,87 @@
+.username {
+	color: white;
+	margin-left: 120px;
+}
+
+.logout {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	margin-left: 120px;
+}
+
+.logout:hover {
+	color: black;
+}
+
+.git {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.git:hover {
+	color: black;
+}
+
+.newsdiv {
+	margin-top: 25px;
+	height: 150px;
+	width: 1170px;
+	border-top: 1px solid #000; 
+	border-bottom: 1px solid #000;
+	position: relative;
+}
+
+.newsdiv:hover {
+	background: grey;
+	color: white;
+	transition: 1.5s;
+}
+
+.bg {
+	margin-top: 25px;
+	width: 1170px;
+	height: 53px;
+	background: linear-gradient(90.11deg, #03FFD2 7.9%, #FF03E6 78.65%);
+	position: relative;
+}
+
+.trans {
+	text-decoration: none;
+	color: black;
+}
+
+.fotocard {
+	position: absolute;
+}
+
+.title {
+	position: absolute;
+	left: 300px;
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+}
+
+.field {
+	position: absolute;
+	left: 300px;
+	padding-top: 50px;
+}
+
+.footer {
+	height: 102px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #230BB3 80.73%);
+	text-align: center;
+	padding-top: 50px;
+}
+
+.search {
+	clear:both;
+	align-items: right;
+	padding-bottom: 25px;
+	padding-top: 35px;
+	padding-left: 850px;
+}

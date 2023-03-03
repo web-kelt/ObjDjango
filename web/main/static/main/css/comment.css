@@ -1,0 +1,51 @@
+.comment_offer {
+	margin-left: 75px;
+	position: relative;
+}
+
+.comment_offer button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.comment_offer textarea {
+	margin-top: 5px;
+}
+
+.not {
+	margin-left: 100px;
+}
+
+.comment_div {
+	width: 1170px;
+	height: 120px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid #000; 
+	border-bottom: 1px solid #000; 
+	position: relative;
+}
+
+.avatar {
+	margin-top: 19px;
+	position: absolute;
+}
+
+.comment_text{
+	position: absolute;
+	left: 100px;
+	margin-top: 25px;
+}
+
+.detail_footer {
+	text-align: center;
+	text-decoration: none;
+	margin-top: 20px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #230BB3 80.73%);
+}
+
+.fixed button {
+	margin-left: auto;
+	margin-right: auto;
+}

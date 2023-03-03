@@ -1,0 +1,147 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: 000;
+	font-size: 16px;
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+}
+
+.container {
+	padding: 0;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(91.01deg, #1DFFF1 10.24%, #E800FC 106.58%);
+}
+
+header a {
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.menu li a:hover {
+	color: black;
+}
+
+.menu li {
+	margin-right: 28px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	letter-spacing: 0.1em;
+}
+
+.logo {
+	margin-right: 96px;
+}
+
+.git {
+	margin-left: 110px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+
+.head h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+.head {
+	padding-top: 25px;
+	text-align: center;
+}
+
+.head img {
+	padding-right: 10px;
+}
+
+.point {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.news_block {
+	width: 1170px;
+	height: 255px;
+	margin-top: 24px;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-top: 1px solid #000; 
+	border-bottom: 1px solid #000; 
+	position: relative;
+}
+.podrobnee {
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+}
+
+.picture {
+	position: absolute;
+	width: 244px;
+	height: 221px;
+	top: 50px;
+	left: 13px;
+}
+
+.name {
+	position: absolute;
+	left: 325px;
+	top: 40px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 44px;
+}
+
+.text_news {
+	position: absolute;
+	left: 325px;
+	top: 110px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 44px;
+}
+
+.news_block:hover {
+	background: grey;
+	color: white;
+	transition: 1.5s;
+}
